@@ -54,11 +54,12 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Interests</template>
 
     <ul>
-      <li>DevOps</li>
-      <li>SRE</li>
-      <li>CI/CD</li>
+      <li>Kubernetes</li>
+      <li>DevOps, SRE and helping Engineers</li>
+      <li>Solving complex problems and Architectures</li>
       <li>Mentoring/Helping/Inspiring</li>
       <li>Aviation, the RAF and shooting</li>
+      <li>Most importantly, Star Wars.</li>
     </ul>
   </HomeListItem>
 

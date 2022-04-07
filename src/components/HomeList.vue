@@ -26,13 +26,15 @@ import SupportIcon from './icons/IconSupport.vue'
     BSc in Business Information Technology from <a href="https://aber.ac.uk">Aberystwyth University</a>.
 
     <br />
-    GCP Professional Architect
+    <a href="https://www.credential.net/0f861332-94d5-467c-8f15-1f63b6dad2da?_ga=2.148645239.1147973984.1649344353-678394014.1649344353">GCP Professional Architect</a>
     <br />
-    GCP Professional DevOps Engineer
+    <span>
+      <a href="https://www.credential.net/1a3e4d2b-6af4-4ffb-94cc-54f6b7227ea4?_ga=2.148645239.1147973984.1649344353-678394014.1649344353">GCP Professional DevOps Engineer</a>
+    </span>
     <br />
-    Certified Kubernetes Administrator
+    <a href="https://www.credly.com/badges/8a9a9a35-900e-4344-9225-81b67a2c2638">Certified Kubernetes Administrator</a>
     <br />
-    Certified Kubernetes Security Specialist
+    <a href="https://www.credly.com/badges/73bace53-a607-40ca-a994-26ad60211d36">Certified Kubernetes Security Specialist</a>
   </HomeListItem>
 
   <HomeListItem>
@@ -72,3 +74,13 @@ import SupportIcon from './icons/IconSupport.vue'
     The site is WIP. If you know Vue, you can probably see I havent even changed from the bootstrap. Im still learning.
   </HomeListItem>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      hover: false,
+    };
+  }
+}
+</script>

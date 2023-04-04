@@ -5,7 +5,7 @@
   <div class="greetings">
     <h1 class="green">Mark Lightfoot</h1>
     <h3>
-      Senior Platform Engineer
+      Senior DevOps Engineer
     </h3>
   </div>
 </template>

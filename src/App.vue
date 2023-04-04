@@ -1,14 +1,20 @@
 <script setup>
-import Me from './components/Me.vue'
-import HomeList from './components/HomeList.vue'
+import MeInfo from "./components/MeInfo.vue";
+import HomeList from "./components/HomeList.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img
+      alt="Logo"
+      class="logo"
+      src="./assets/logo.svg"
+      width="125"
+      height="125"
+    />
 
     <div class="wrapper">
-      <Me />
+      <MeInfo />
     </div>
   </header>
 
@@ -18,7 +24,7 @@ import HomeList from './components/HomeList.vue'
 </template>
 
 <style>
-@import './assets/base.css';
+@import "./assets/base.css";
 
 #app {
   max-width: 1280px;
